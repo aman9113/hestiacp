@@ -126,6 +126,20 @@ bash hst-install.sh \
 	--clamav no \
 	--spamassassin no
 ```
+##### Example
+
+```bash
+bash hst-install.sh \
+	--interactive no \
+	--hostname host.domain.tld \
+	--email email@domain.tld \
+	--password p4ssw0rd \
+	--lang fr \
+	--apache no \
+	--named no \
+	--clamav no \
+	--spamassassin no
+```
 
 This command will install Hestia in French with the following software:
 
